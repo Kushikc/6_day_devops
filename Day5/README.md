@@ -1,0 +1,3 @@
+Day 5
+EC2-Based Kubernetes Cluster Setup (Master & Worker Nodes)
+This project involves launching and configuring EC2 instances to set up a basic Kubernetes cluster using AWS. We begin by launching two EC2 instances—one as the Master Node and another as the Worker Node—using Amazon Linux 2 or Ubuntu, with necessary ports (SSH, HTTP, HTTPS) enabled. After connecting to each instance via SSH, we configure the AWS CLI and use the aws eks update-kubeconfig command to link each node to its respective EKS cluster (cluster-1 for master, cluster-2 for worker). This setup forms the foundation for deploying scalable applications on AWS using Kubernetes.
